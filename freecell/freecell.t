@@ -45,7 +45,7 @@ proc freeCell
     %play the game
     loop
 	exit when wingame (foundationArray) = true or GUI.ProcessEvent or back = true
-	background := Pic.FileNew ("../pictures/gameback.jpg")
+	background := Pic.FileNew ("pictures/gameback.jpg")
 	Pic.Draw (background, -300, -200, picMerge)
 	undo := false
 	drawBoard (columnArray, foundationArray, cellArray)

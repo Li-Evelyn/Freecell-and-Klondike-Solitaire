@@ -40,7 +40,7 @@ proc klondike
     %play the game
     loop
 	exit when wingame (foundation) or GUI.ProcessEvent or back = true
-	background := Pic.FileNew ("../pictures/gameback.jpg")
+	background := Pic.FileNew ("pictures/gameback.jpg")
 	Pic.Draw (background, -300, -200, picMerge)
 	undo := false
 	flipped := false
