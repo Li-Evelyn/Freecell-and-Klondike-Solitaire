@@ -1,0 +1,26 @@
+Freecell Instructions
+
+Goal: To create four stacks of cards (one per suit) in the foundation in the upper-right corner.
+
+How to Play:
+
+Valid moves are as follows.
+
+1. Move cards from one column to another. 
+Cards must be placed in descending order (by number) and alternate between red and black (diamond/heart and club/spade).
+
+2. Move a card to a free cell. 
+These four cells are located in the upper-left corner and can temporarily hold any single card during play.
+
+3. Move cards to the foundation. Cards must be the correct suit and number. Foundations fill up in order from Ace to King.
+
+4. Move a stack of cards. 
+A valid stack contains cards in descending order and alternating colours (see criteria in 1.). 
+Moving stacks in freecell is equivilant to moving one card to each of the free cells and then back to the board. 
+As such, you can only move as many cards as you have open cells 
+(mathematically, where n is the number of free cells, you may move a stack with cards of up to n + 1). 
+For this purpose, empty columns count as free cells.
+
+5. Move cards to empty cells. You may move single cards or stacks as long as the free cell rule holds.
+
+Game End: When all four foundations have thirteen cards in them as per the criteria in 3.

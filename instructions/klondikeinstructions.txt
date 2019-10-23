@@ -1,0 +1,20 @@
+Klondike Instructions
+
+Goal: To create four stacks of cards (one per suit) in the foundation of the upper-right corner. 
+
+How to Play:
+
+Valid moves are as follows.
+
+1. Move cards from one column to another. 
+Cards must be placed in descending order and alternate between red and black (diamond/heart and club/spade).
+
+2. Move cards to the foundation. Cards must be the correct suit and number. Foundations fill up in order from Ace to King.
+
+3. Draw cards from the deck. You may move these cards to the columns or foundation as you please.
+
+4. Move a stack of cards. See rules for moving cards in 1.
+
+5. Move a stack with a King at its head in an empty column. 
+
+Game End: When all four foundations have thirteen cards in them as per the criteria in 2.
