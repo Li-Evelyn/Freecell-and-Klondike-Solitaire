@@ -2,7 +2,7 @@
 %a.k.a. non-game screens
 
 proc mainMenu
-    background := Pic.FileNew ("pictures/titlescreen.jpg")
+    background := Pic.FileNew ("pictures/solitairememe.jpg")
     %Pic.Draw (background, -300, -200, picMerge)
     Pic.Draw(background, 0, 0, picMerge)
     %buttons
